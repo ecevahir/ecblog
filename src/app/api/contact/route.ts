@@ -18,8 +18,8 @@ export async function POST(req: NextRequest) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
     body: JSON.stringify({
-      from: 'BT Öğretmeni Blog <noreply@ecblog.vercel.app>',
-      to: ['ogretmen@example.com'],
+      from: 'BT Öğretmeni Blog <onboarding@resend.dev>',
+      to: ['ecevahir@gmail.com'],
       subject: `[Blog İletişim] ${subject}`,
       html: `<p><strong>Gönderen:</strong> ${name} (${email})</p><p>${message.replace(/\n/g, '<br>')}</p>`,
     }),

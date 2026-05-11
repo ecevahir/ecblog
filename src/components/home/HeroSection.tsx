@@ -12,7 +12,7 @@ export default function HeroSection() {
             Bilişim Teknolojileri Öğretmeni
           </p>
           <h1 className="text-3xl sm:text-4xl font-bold text-[var(--color-brand-700)] mb-4 leading-tight">
-            Merhaba, ben <span className="text-[var(--color-accent)]">Adınız Soyadınız</span>
+            Merhaba, ben <span className="text-[var(--color-accent)]">Emre CEVAHİR</span>
           </h1>
           <p className="text-[var(--color-brand-500)] mb-6 leading-relaxed max-w-lg">
             Bilişim Teknolojileri öğretmeniyim. Kodlama, algoritmik düşünme, siber güvenlik ve

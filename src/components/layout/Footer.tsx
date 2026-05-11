@@ -9,10 +9,8 @@ const navLinks = [
 ]
 
 const socialLinks = [
-  { href: 'https://github.com/kullanici', icon: <Code2 size={18} />, label: 'GitHub' },
-  { href: 'https://linkedin.com/in/kullanici', icon: <Briefcase size={18} />, label: 'LinkedIn' },
-  { href: 'https://twitter.com/kullanici', icon: <X size={18} />, label: 'Twitter / X' },
-  { href: 'mailto:ogretmen@example.com', icon: <Mail size={18} />, label: 'E-posta' },
+  { href: 'https://github.com/ecevahir', icon: <Code2 size={18} />, label: 'GitHub' },
+  { href: 'mailto:ecevahir@gmail.com', icon: <Mail size={18} />, label: 'ecevahir@gmail.com' },
 ]
 
 export default function Footer() {
@@ -24,7 +22,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <p className="font-semibold text-[var(--color-brand-700)] mb-1">BT Öğretmeni</p>
+            <p className="font-semibold text-[var(--color-brand-700)] mb-1">Emre CEVAHİR</p>
             <p className="text-sm text-[var(--color-brand-500)]">
               Bilişim Teknolojileri öğretmeni. Kodlama, algoritmik düşünme ve dijital okuryazarlık
               üzerine yazılar.
@@ -74,7 +72,7 @@ export default function Footer() {
         </div>
 
         <p className="text-xs text-[var(--color-brand-500)] text-center border-t border-[var(--color-brand-200)] pt-6">
-          © {year} BT Öğretmeni. Tüm hakları saklıdır.
+          © {year} Emre CEVAHİR. Tüm hakları saklıdır.
         </p>
       </div>
     </footer>

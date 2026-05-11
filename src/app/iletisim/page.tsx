@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Mail, Briefcase, Code2, X } from 'lucide-react'
+import { Mail, Code2 } from 'lucide-react'
 import ContactForm from '@/components/contact/ContactForm'
 import SectionHeading from '@/components/ui/SectionHeading'
 
@@ -11,23 +11,13 @@ export const metadata: Metadata = {
 const socialLinks = [
   {
     icon: <Mail size={18} />,
-    label: 'ogretmen@example.com',
-    href: 'mailto:ogretmen@example.com',
-  },
-  {
-    icon: <Briefcase size={18} />,
-    label: 'LinkedIn',
-    href: 'https://linkedin.com/in/kullanici',
+    label: 'ecevahir@gmail.com',
+    href: 'mailto:ecevahir@gmail.com',
   },
   {
     icon: <Code2 size={18} />,
-    label: 'GitHub',
-    href: 'https://github.com/kullanici',
-  },
-  {
-    icon: <X size={18} />,
-    label: 'Twitter / X',
-    href: 'https://twitter.com/kullanici',
+    label: 'github.com/ecevahir',
+    href: 'https://github.com/ecevahir',
   },
 ]
 

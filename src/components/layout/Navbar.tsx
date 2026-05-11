@@ -29,7 +29,7 @@ export default function Navbar() {
           className="flex items-center gap-2 font-semibold text-[var(--color-brand-700)] hover:text-[var(--color-accent)] transition-colors"
         >
           <Monitor size={20} className="text-[var(--color-accent)]" />
-          <span>BT Öğretmeni</span>
+          <span>Emre CEVAHİR</span>
         </Link>
 
         {/* Desktop nav */}

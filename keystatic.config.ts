@@ -2,7 +2,7 @@ import { config, collection, fields } from '@keystatic/core'
 
 export default config({
   storage:
-    process.env.KEYSTATIC_GITHUB_CLIENT_ID
+    process.env.NEXT_PUBLIC_KEYSTATIC_STORAGE_KIND === 'github'
       ? { kind: 'github', repo: 'ecevahir/ecblog' }
       : { kind: 'local' },
 

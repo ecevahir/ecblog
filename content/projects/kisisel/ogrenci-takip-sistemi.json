@@ -1,0 +1,8 @@
+{
+  "title": "Öğrenci Takip Sistemi",
+  "description": "Öğrencilerin ders performansını, devam durumunu ve ödev teslimlerini takip etmek için geliştirdiğim web uygulaması. Next.js App Router ve Tailwind CSS ile sıfırdan tasarlandı.",
+  "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+  "url": "https://ogrenci-takip.vercel.app",
+  "github": "https://github.com/kullanici/ogrenci-takip",
+  "year": 2024
+}

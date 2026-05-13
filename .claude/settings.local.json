@@ -30,7 +30,8 @@
       "Bash(curl -s -o /dev/null -w \"branch-info: %{http_code}\\\\n\" \"https://cevahir.web.tr/api/keystatic/branch/main\")",
       "Bash(curl -s -I \"https://cevahir.web.tr/keystatic\")",
       "Bash(git commit -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(git pull *)"
     ]
   }
 }

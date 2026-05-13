@@ -1,0 +1,8 @@
+{
+  "title": "Kişisel Portfolyo & Blog",
+  "description": "Eğitim deneyimlerimi, projelerimi ve yazılarımı paylaştığım bu kişisel portfolyo sitesi. Next.js, MDX ve Tailwind CSS ile geliştirildi, Vercel üzerinde yayınlanıyor.",
+  "tags": ["Next.js", "MDX", "Tailwind CSS", "Vercel"],
+  "url": "https://ecblog.vercel.app",
+  "github": "https://github.com/kullanici/ecblog",
+  "year": 2025
+}

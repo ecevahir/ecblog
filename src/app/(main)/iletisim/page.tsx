@@ -30,7 +30,6 @@ export default function IletisimPage() {
       />
 
       <div className="grid sm:grid-cols-2 gap-12">
-        {/* Social links */}
         <div>
           <h2 className="text-base font-semibold text-[var(--color-brand-700)] mb-4">
             Doğrudan Ulaşın
@@ -51,8 +50,6 @@ export default function IletisimPage() {
             ))}
           </ul>
         </div>
-
-        {/* Form */}
         <div>
           <h2 className="text-base font-semibold text-[var(--color-brand-700)] mb-4">
             Mesaj Gönderin

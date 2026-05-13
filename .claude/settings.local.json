@@ -20,7 +20,17 @@
       "Bash(curl -s \"http://localhost:3001/api/keystatic/reader/collection/list?collection=blog\")",
       "Bash(taskkill /PID 27288 /F)",
       "Bash(curl -sv \"http://localhost:3001/api/keystatic/reader/collection/list?collection=blog\")",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(curl -s -o /dev/null -w \"Status: %{http_code}\\\\n\" \"https://cevahir.web.tr/api/keystatic/collection/blog\")",
+      "Bash(curl -s \"https://cevahir.web.tr/api/keystatic/collection/blog\")",
+      "Bash(curl -s -o /dev/null -w \"github-config: %{http_code}\\\\n\" \"https://cevahir.web.tr/api/keystatic/github/login\")",
+      "Bash(curl -s -o /dev/null -w \"root: %{http_code}\\\\n\" \"https://cevahir.web.tr/api/keystatic/\")",
+      "Bash(curl -s -o /dev/null -w \"any: %{http_code}\\\\n\" \"https://cevahir.web.tr/api/keystatic/foo/bar\")",
+      "Bash(curl -s -o /dev/null -w \"tree: %{http_code}\\\\n\" \"https://cevahir.web.tr/api/keystatic/tree\")",
+      "Bash(curl -s -o /dev/null -w \"branch-info: %{http_code}\\\\n\" \"https://cevahir.web.tr/api/keystatic/branch/main\")",
+      "Bash(curl -s -I \"https://cevahir.web.tr/keystatic\")",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }

@@ -6,7 +6,21 @@
       "Bash(node -e ' *)",
       "Bash(npm run *)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/keystatic)",
-      "Bash(curl -s http://localhost:3000/keystatic)"
+      "Bash(curl -s http://localhost:3000/keystatic)",
+      "Bash(Start-Process npm *)",
+      "Bash(Start-Sleep -Seconds 7)",
+      "Bash(Invoke-WebRequest -Uri \"http://localhost:3000/api/keystatic/reader/collection/list?collection=blog\" -UseBasicParsing)",
+      "Bash(Select-Object -ExpandProperty Content)",
+      "Bash(curl -s \"http://localhost:3000/api/keystatic/reader/collection/list?collection=blog\")",
+      "Bash(curl -sv \"http://localhost:3000/api/keystatic/reader/collection/list?collection=blog\")",
+      "Bash(curl -sv \"http://localhost:3000/api/keystatic/\")",
+      "Bash(curl -s \"http://localhost:3000/api/keystatic\")",
+      "Bash(curl -sv \"http://localhost:3000/api/keystatic/test\")",
+      "Bash(node --input-type=module -e ' *)",
+      "Bash(curl -s \"http://localhost:3001/api/keystatic/reader/collection/list?collection=blog\")",
+      "Bash(taskkill /PID 27288 /F)",
+      "Bash(curl -sv \"http://localhost:3001/api/keystatic/reader/collection/list?collection=blog\")",
+      "Bash(git add *)"
     ]
   }
 }

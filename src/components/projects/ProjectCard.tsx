@@ -1,4 +1,5 @@
-import { Code2, ExternalLink } from 'lucide-react'
+import Link from 'next/link'
+import { BookOpen, Code2, ExternalLink } from 'lucide-react'
 import type { Project } from '@/types/project'
 
 interface Props {
@@ -6,6 +7,9 @@ interface Props {
 }
 
 export default function ProjectCard({ project }: Props) {
+  // Site içi bağlantı ("/..."): aynı sekmede client-side gezinme; dış URL: yeni sekme.
+  const isInternal = project.url?.startsWith('/')
+
   return (
     <div className="bg-white border border-[var(--color-brand-200)] rounded-xl p-5 hover:shadow-md transition-shadow">
       <div className="flex items-start justify-between gap-2 mb-2">
@@ -26,17 +30,26 @@ export default function ProjectCard({ project }: Props) {
         ))}
       </div>
       <div className="flex gap-3">
-        {project.url && (
-          <a
-            href={project.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 text-xs text-[var(--color-accent)] hover:text-[var(--color-accent-hover)] transition-colors font-medium"
-          >
-            <ExternalLink size={13} />
-            Projeyi Gör
-          </a>
-        )}
+        {project.url &&
+          (isInternal ? (
+            <Link
+              href={project.url}
+              className="inline-flex items-center gap-1.5 text-xs text-[var(--color-accent)] hover:text-[var(--color-accent-hover)] transition-colors font-medium"
+            >
+              <BookOpen size={13} />
+              Rehberi Aç
+            </Link>
+          ) : (
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs text-[var(--color-accent)] hover:text-[var(--color-accent-hover)] transition-colors font-medium"
+            >
+              <ExternalLink size={13} />
+              Projeyi Gör
+            </a>
+          ))}
         {project.github && (
           <a
             href={project.github}

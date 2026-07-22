@@ -1,0 +1,7 @@
+{
+  "title": "ecDashboard — Android Auto Yolculuk Asistanı",
+  "description": "Android Auto destekli yolculuk asistanı: telefonda yolculuk/mola takibi, araç ekranında yakındaki elektrikli araç şarj istasyonları ve geçmiş sürüşlerden öğrenen batarya tüketim tahmini. Kapalı test aşamasında; test kullanıcısı rehberini inceleyebilirsiniz.",
+  "tags": ["Android", "Kotlin", "Android Auto", "EV"],
+  "url": "/projeler/ecdashboard",
+  "year": 2026
+}

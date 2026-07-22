@@ -6,6 +6,7 @@ const navLinks = [
   { href: '/blog', label: 'Yazılar' },
   { href: '/projeler', label: 'Projeler' },
   { href: '/iletisim', label: 'İletişim' },
+  { href: '/gizlilik', label: 'Gizlilik Politikası' },
 ]
 
 const socialLinks = [

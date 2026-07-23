@@ -73,25 +73,48 @@ export default function EcDashboardRehberPage() {
         </p>
         <ol>
           <li>
-            <strong>Google hesabınızın e-posta adresini bana iletin.</strong> Play test listesine
-            eklemem gerekiyor. Adresi{' '}
-            <a href="mailto:ecevahir@gmail.com">ecevahir@gmail.com</a> adresine gönderin.
+            <strong>Test grubuna katılın.</strong> Test erişimi bir Google Grubu üzerinden veriliyor.
+            Google hesabınızla{' '}
+            <a href="https://groups.google.com/g/odevtakip" target="_blank" rel="noopener noreferrer">
+              groups.google.com/g/odevtakip
+            </a>{' '}
+            adresine gidip gruba katılın (<code>odevtakip@googlegroups.com</code>).
           </li>
           <li>
-            <strong>Size göndereceğim davet bağlantısını açıp testi kabul edin.</strong> Bağlantıdaki
-            sayfada &ldquo;Test kullanıcısı ol / Become a tester&rdquo; seçeneğine dokunmanız yeterli.{' '}
-            <em>(Davet bağlantısı yakında buraya eklenecek.)</em>
+            <strong>Test davetini kabul edin:</strong>{' '}
+            <a
+              href="https://play.google.com/apps/testing/com.ecauto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              play.google.com/apps/testing/com.ecauto
+            </a>{' '}
+            adresini açıp &ldquo;Test kullanıcısı ol / Become a tester&rdquo; seçeneğine dokunun.
+            Play&rsquo;e <em>gruba katıldığınız Google hesabıyla</em> giriş yapmış olmanız gerekir.
           </li>
           <li>
-            <strong>Play Store&rsquo;dan ecDashboard&rsquo;u yükleyin.</strong> Kabul ettikten sonra
-            uygulama Play Store&rsquo;da görünür; güncellemeler de otomatik olarak Play üzerinden gelir.
+            <strong>Uygulamayı yükleyin.</strong> Kabul ettikten sonra aynı sayfadaki indirme
+            bağlantısından ya da{' '}
+            <a
+              href="https://play.google.com/store/apps/details?id=com.ecauto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Play Store sayfasından
+            </a>{' '}
+            kurun. Yeni sürümler normal güncelleme gibi otomatik iner.
           </li>
         </ol>
         <blockquote>
           <strong>Önemli:</strong> Android Auto, Play dışından yüklenen uygulamaları araç ekranında
-          göstermez. Bu yüzden kurulum mutlaka yukarıdaki Play test bağlantısı üzerinden yapılmalıdır
-          — APK ile elden kurulum çalışmaz.
+          göstermez. Bu yüzden kurulum mutlaka yukarıdaki Play bağlantısı üzerinden yapılmalıdır —
+          APK ile elden kurulum çalışmaz.
         </blockquote>
+        <p>
+          <strong>Uygulama görünmüyor mu?</strong> Gruba katıldığınız hesapla Play Store&rsquo;a giriş
+          yaptığınızdan emin olun; grup üyeliğinin Play tarafına yansıması birkaç dakika sürebilir.
+          Sayfa &ldquo;bulunamadı&rdquo; diyorsa biraz bekleyip tekrar deneyin.
+        </p>
 
         <h2>Uygulamayı tanıyalım</h2>
 
